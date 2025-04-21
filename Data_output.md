@@ -5,7 +5,7 @@ You can also use `println` if you want the output to skip one line after the las
 The text must be between **parenthesis** and variables must be added with `+`.
 
 ```java
-Import java.util.Scanner;
+import java.util.Scanner;
 
 public class example {
   public static void main(String[] args) {
