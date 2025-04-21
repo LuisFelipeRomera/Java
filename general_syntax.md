@@ -6,6 +6,7 @@ In Java, the program must be inserted inside the main **class**, which name must
 
 Afterward, the program is called with the `main` function, preceded by some flags (`public static void`) and have some parameters (`String args[]`):
 
-`class example {
-public static void main(String args[]) { "program }
-}`
+```java
+class example {
+public static void main(String args[]) { "program" }
+}
