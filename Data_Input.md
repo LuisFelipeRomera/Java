@@ -10,10 +10,11 @@ At last, you must close the scanner with `"scanner".close()`.
 
 If I have an integer variable that must receive data from the keyboard, calling my scanner "reader":
 
-` import java.util.Scanner;
-  public class exemple {
+ ```java
+import java.util.Scanner;
+  public class example {
     public static void main(String args[]) {
       Scanner reader = new scanner(System.in);
       int var = reader.nextInt();
     }
-}`
+} 
