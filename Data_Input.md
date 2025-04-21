@@ -14,7 +14,8 @@ If I have an integer variable that must receive data from the keyboard, calling 
 import java.util.Scanner;
   public class example {
     public static void main(String args[]) {
-      Scanner reader = new scanner(System.in);
+      Scanner reader = new Scanner(System.in);
       int var = reader.nextInt();
+      reader.close()
     }
 } 
